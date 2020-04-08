@@ -1,0 +1,177 @@
+/* tag selector */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* content layout */
+
+.content-layout {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* colored section */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+/* white section */
+.white-section {
+    background-color: #fff;
+}
+
+
+/* nav section */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2 rem;
+    font-family: "Montserrat-Light";
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* title section */
+
+#title {
+    padding-top: 3%;
+    text-align: left;
+}
+
+.download-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 60%;
+    right: 30%;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+    position: absolute;
+}
+
+@media (max-width: 1031px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        transform: rotate(0);
+        position: static;
+    }
+
+}
+
+/* features section */
+
+#features {
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon :hover {
+    color: #ff4c68;
+}
+
+/* testimonials section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pressing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card {
+    margin-top: 3%;
+}
+
+.card-body {
+    margin: 5% 10%;
+}
+/* footer section */
+
+.social-icon {
+    margin: 20px 10px;
+}
