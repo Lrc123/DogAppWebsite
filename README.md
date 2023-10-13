@@ -1,4 +1,5 @@
 # 狗社交app 下载网站首页(响应式+适配手机端和平板)
+Responsive Web page, resize based on your device scale
 
 ### 技术： html + css（bootstrap）
 
